@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Assignment 1 | COMP1073 Client-Side JavaScript</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="./css/style.css">
+	
+</head>
+
+<body>
+	<h1>See-N-Say Storymaker</h1>
+	<p id="studentId"></p>
+	<h2>Create Your Story</h2>
+	<p>For random story : click the random story button  and then click the show story button</p>
+	<section class="section1">
+		<!-- Section with all the buttons for the user to build their story -->
+		<button id="noun1" onclick="noun1_on_click()">Noun 1</button>
+		<button id="verb" onclick="verb_on_click()">Verb</button>
+		<button id="adjective" onclick="adjective_on_click() ">Adjective</button>
+		<button id="noun2" onclick="noun2_on_click()">Noun 2</button>
+		<button id="preposition" onclick="preposition_on_click()">Preposition</button>
+		<button id="setting" onclick="setting_on_click()">Setting</button>
+	
+	</section>
+	<section>
+		<p id="choosenNoun1"></p>
+		<p id="choosenVerb"></p>
+		<p id="choosenAdjective"></p>
+		<p id="choosenNoun2"></p>
+		<p id="choosenPreposition"></p>
+		<p id="choosenSetting"></p>
+		
+	</section>
+	<section>
+		<!-- Section with playback controls to see or hear the story -->
+		<h2>See Your Story</h2>
+		<button id="playback" onclick="playback_on_click()">Show Story</button>
+		<button id="reset" onclick="resetStory()">Reset Story</button>
+		<button id="random" onclick="random_on_click()">Random Story</button>
+
+		<!-- Empty paragraph to display the story -->
+		<p id="story"></p>
+	</section>
+	<script src="./js/storymaker.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+/* general styling for the page */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: teal;
+    color: whitesmoke;
+}
+/* to display buttons in one line  */
+.section1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section1 button {
+    margin: 5px;
+}
+
+#story-container {
+    margin-top: 20px;
+  
+}
+
+.story-button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+/* general styling for button */
+#playback, #random,#reset {
+    background-color: #008CBA;
+    color: white;
+}
+
+#playback:hover, #random:hover {
+    background-color: #007B9E;
+}
+
+/* styling for the story paragraph */
+#story {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/*  styling for the chosen words paragraphs */
+p[id^="choosen"] {
+    margin: 5px 0;
+    font-style: italic;
+    color: wheat;
+}
+
+/* styling for the student ID paragraph */
+#studentId {
+    font-style: italic;
+    color:wheat;
+}
+
+
+
+
+
+
